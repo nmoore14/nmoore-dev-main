@@ -1,6 +1,6 @@
 <template>
-  <div class="absolute w-full bg-sand-500 mt-8" id="hero-main">
-    <div class="hidden md:block">
+  <div class="relative w-full bg-sand-500 mt-8 z-0" id="hero-main">
+    <div class="hidden md:block w-full">
       <!--Should not see on small screens -->
       <div id="desktop-display" class="w-full h-full">
         <div id="desktop-image" class="absolute w-1/2 bottom-0 left-0 ml-4 mb-4 bg-steel-100">

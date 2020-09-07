@@ -1,6 +1,9 @@
 module.exports = {
   purge: [],
   theme: {
+    zIndex: {
+      '-100': '-100'
+    },
     fontFamily: {
       'display': ['Quicksand', 'sans-serif'],
       'body': ['Nunito', 'sans-serif']
