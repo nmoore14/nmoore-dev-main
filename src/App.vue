@@ -1,8 +1,10 @@
 <template>
   <div id="app" class="flex flex-col">
     <Navbar/>
-    <Hero/>
-    <Projects/>
+    <div id="content" class="absolute">
+      <Hero/>
+      <Projects/>
+    </div>
   </div>
 </template>
 

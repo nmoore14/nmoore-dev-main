@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full bg-sand-500 mt-8 z-0" id="hero-main">
+  <div class="relative w-full bg-sand-500 mt-8" id="hero-main">
     <div class="hidden md:block w-full">
       <!--Should not see on small screens -->
       <div id="desktop-display" class="w-full h-full">
@@ -40,6 +40,7 @@ export default {
 <style scoped>
   #hero-main {
     height: 30rem;
+    z-index: 10;
   }
 
   #desktop-image {

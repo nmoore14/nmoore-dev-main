@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex absolute h-auto md:fixed w-full items-center justify-end md:justify-between flex-wrap bg-steel-500 p-4 z-50">
+  <nav class="flex relative h-auto md:fixed w-full items-center justify-end md:justify-between flex-wrap bg-steel-500 p-4">
     <button class="hidden sm:fixed sm:block inset-0 w-full h-screen focus:outline-none bg-black opacity-0 bgBox"
       @click="isOpen = !isOpen"
       v-if="isOpen"
@@ -114,3 +114,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  nav {
+    z-index: 100;
+  }
+</style>
