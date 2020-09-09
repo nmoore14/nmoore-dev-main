@@ -17,45 +17,30 @@ const projects = [
     tags: ['Vue', 'Project', 'TailwindCSS', 'Markdown', 'Github']
   },
   {
-    title: 'Project 2',
-    image: 'project_images/nick-style.png',
-    description: 'This is my first project for test the long description',
-    shortDescription: 'My first project',
+    title: 'Day Log',
+    image: 'project_images/vue-md.png',
+    description: 'Electron based Day Task manager with note taking ability',
+    shortDescription: 'Electron based day task manager with note taking',
     links: [
       {
         title: 'Repo',
-        url: 'https://www.google.com'
+        url: 'https://github.com/nmoore14/day-log-electron'
       }
     ],
-    tags: ['Vue', 'Project', 'TailwindCSS']
+    tags: ['Vue', 'W.I.P.', 'TailwindCSS', 'Electron', 'ToDo App']
   },
   {
-    title: 'Project 3',
-    image: 'project_images/nick-style.png',
-    description: 'This is my first project for test the long description',
-    shortDescription: 'My first project',
-    tags: [
-      'Vue',
-      'Project 3',
-      'TailwindCSS',
-      'Frontend Framework',
-      'Full Stack',
-      'Web Dev'
-    ]
-  },
-  {
-    title: 'Project 1',
-    image: 'project_images/nick-style.png',
-    description: 'This is my first project for test the long description',
-    shortDescription: 'My first project',
-    tags: ['Vue', 'Project', 'TailwindCSS', 'Frontend Framework']
-  },
-  {
-    title: 'Project 2',
-    image: 'project_images/nick-style.png',
-    description: 'This is my first project for test the long description',
-    shortDescription: 'My first project',
-    tags: ['Vue', 'Project', 'TailwindCSS']
+    title: 'Py_Adventure',
+    image: 'project_images/py_adventure.png',
+    description: 'Electron based Day Task manager with note taking ability',
+    shortDescription: 'Python text based adventure game',
+    links: [
+      {
+        title: 'Repo',
+        url: 'https://github.com/nmoore14/py_adventure'
+      }
+    ],
+    tags: ['Python', 'W.I.P.', 'JSON', 'Game']
   }
 ]
 

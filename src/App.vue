@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="flex flex-col">
+  <div id="app" class="flex flex-col w-full">
     <Navbar/>
-    <div id="content" class="absolute">
+    <div id="content" class="absolute w-full">
       <Hero/>
       <Projects/>
     </div>
