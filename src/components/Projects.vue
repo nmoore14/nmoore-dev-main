@@ -27,7 +27,7 @@
         class="transform w-1/2 sm:w-1/5 p-2 cursor-pointer"
         @click="removeFilter(index)"
       >
-        <p class="w-full p-2 bg-coral-500 font-body text-lg text-white rounded-md">{{ tag }}</p>
+        <p class="w-full p-2 bg-coral-500 font-body text-lg text-white rounded-md">{{ tag }} <span class="float-right">x</span></p>
       </div>
     </div>
     <div v-if="filtering"

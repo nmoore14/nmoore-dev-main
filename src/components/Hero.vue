@@ -10,6 +10,9 @@
           <div id="content-display" class="absolute w-5/6 h-full bottom-0 right-0 pr-4">
             <h1 class="text-right font-display text-5xl font-thin text-steel-500">Web Developer</h1>
             <h1 class="text-right font-display text-5xl font-thin text-steel-500">Graphic Designer</h1>
+            <p class="font-body text-xl">
+              Print or Digital let's bring your idea's to life.
+            </p>
           </div>
         </div>
       </div>
@@ -23,6 +26,9 @@
           <div id="mobile-content-display" class="w-full">
             <h1 class="text-center font-display text-2xl font-thin text-steel-500">Web Developer</h1>
             <h1 class="text-center font-display text-2xl font-thin text-steel-500">Graphic Designer</h1>
+            <p class="font-body text-lg text-center text-steel-300">
+              Print or Digital let's bring your idea's to life.
+            </p>
           </div>
         </div>
       </div>
