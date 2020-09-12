@@ -14,12 +14,12 @@
         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
       </button>
     </div>
-    <div class="hidden md:block w-full flex-grow lg:flex lg:items-center lg:w-auto">
+    <div class="hidden lg:block w-full flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="justify-center text-lg lg:flex-grow">
         <a href="#responsive-header" class="block lg:inline-block lg:mt-0 font-display font-semibold bg-coral-500 text-white text-center md:text-left hover:text-sand-500 mr-0 md:mr-4 p-2 rounded">
           Nick Moore
         </a>
-        <a href="#responsive-header" class="block lg:inline-block mt-2 md:mt-0 font-body font-light text-right md:text-center text-white hover:text-sand-500 mr-4">
+        <a href="#projects" class="block lg:inline-block mt-2 md:mt-0 font-body font-light text-right md:text-center text-white hover:text-sand-500 mr-4">
           Projects
         </a>
         <a href="#responsive-header" class="block lg:inline-block mt-2 md:mt-0 font-body font-light text-right md:text-center text-white hover:text-sand-500 mr-4">
@@ -59,19 +59,19 @@
         </a>
       </div>
     </div>
-    <div :class="isOpen ? 'block' : 'hidden'" class="w-full flex-grow md:hidden lg:items-center lg:w-auto">
+    <div :class="isOpen ? 'block' : 'hidden'" class="w-full flex-grow lg:hidden lg:items-center lg:w-auto">
       <div class="mt-4 justify-center text-lg lg:flex-grow">
-        <a href="#responsive-header" class="block lg:inline-block mt-2 md:mt-0 w-1/2 bg-steel-300 p-2 float-right font-body font-light text-right md:text-center text-white hover:text-sand-500 mr-4 rounded">
+        <a href="#projects" class="block mt-2 md:mt-2 w-1/2 bg-steel-300 p-2 float-right font-body text-2xl font-light text-right text-white hover:text-sand-500 mr-4 rounded">
           Projects
         </a>
-        <a href="#responsive-header" class="block lg:inline-block mt-2 md:mt-0 w-2/3 bg-steel-300 p-2 float-right font-body font-light text-right md:text-center text-white hover:text-sand-500 mr-4 rounded">
+        <a href="#responsive-header" class="block mt-2 md:mt-2 w-2/3 bg-steel-300 p-2 float-right font-body text-2xl font-light text-right text-white hover:text-sand-500 mr-4 rounded">
           Resume
         </a>
-        <a href="#responsive-header" class="block lg:inline-block mt-2 md:mt-0 w-5/6 bg-steel-300 p-2 float-right font-body font-light text-right md:text-center text-white hover:text-sand-500 mr-4 rounded">
+        <a href="#responsive-header" class="block mt-2 md:mt-2 w-5/6 bg-steel-300 p-2 float-right font-body text-2xl font-light text-right text-white hover:text-sand-500 mr-4 rounded">
           Contact
         </a>
       </div>
-      <div class="flex justify-center md:justify-end w-full md:w-1/3">
+      <div class="flex justify-center w-full">
         <a href="https://github.com/nmoore14" class="inline-block text-sm p2 leading-none bg-steel-300 rounded text-white hover:text-teal-500 hover:bg-coral-500 mx-2 mt-4 lg:mt-0">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z"/>

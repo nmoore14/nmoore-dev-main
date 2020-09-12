@@ -30,6 +30,7 @@
           class="inline-block bg-gray-200 rounded px-3 py-1 font-body text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-coral-500 hover:text-white cursor-pointer"
           v-for="(tag, index) in tags"
           :key="index"
+          @click="filterProjects(tag)"
         >
           #{{ tag }}
         </span>
@@ -60,6 +61,9 @@ export default {
       if (this.links) {
         this.hasLinks = true
       }
+    },
+    filterProjects (tag) {
+      this.$parent.filterProjects(tag)
     }
   },
   mounted () {

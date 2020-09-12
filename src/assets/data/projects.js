@@ -41,6 +41,19 @@ const projects = [
       }
     ],
     tags: ['Python', 'W.I.P.', 'JSON', 'Game']
+  },
+  {
+    title: 'Svelte Todo',
+    image: 'project_images/svelte-todo.png',
+    description: 'A quick and simple todo app that I built to learn Svelte',
+    shortDescription: 'Simple todo app built in Svelte',
+    links: [
+      {
+        title: 'Repo',
+        url: 'https://github.com/nmoore14/svelte-todo'
+      }
+    ],
+    tags: ['Svelte', 'Framework', 'Todo', 'Neumorphism']
   }
 ]
 
